@@ -1,11 +1,10 @@
 const Header = () => {
 	return (
-		<section id="header" className="bg-slate-100 flex justify-center items-center p-8">
+		<section id="header" className="bg-slate-100 flex justify-center items-center md:p-8 p-4">
 			<div id="container" className=" max-w-sc">
 				<svg
+					className="w-36"
 					id="logo-76"
-					width="218"
-					height="40"
 					viewBox="0 0 218 40"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"

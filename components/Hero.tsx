@@ -1,8 +1,8 @@
 const Hero = () => {
 	return (
 		<section id="hero" className="bg-blue-800 text-white flex justify-center items-center p-8">
-			<div id="container" className="max-w-screen-lg text-center">
-				<h1 className="text-4xl font-semibold mb-4">Lorem ipsum dolor sit amet</h1>
+			<div id="container" className="max-w-screen-lg text-center flex flex-col gap-6">
+				<h1 className="text-4xl font-semibold">Lorem ipsum dolor sit amet</h1>
 				<p className="text-lg">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
