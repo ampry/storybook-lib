@@ -1,6 +1,6 @@
 import Button from "@/components/parts/Button";
 
-const Text = () => {
+const Quote = () => {
   return (
     <section
       id="hero"
@@ -13,16 +13,28 @@ const Text = () => {
         <h3 className="text-2xl font-semibold max-w-[720px]">
           Lorem ipsum dolor sit amet
         </h3>
+
+        {/* Quote section */}
+        <iframe
+          width="560"
+          className="rounded-md"
+          height="315"
+          src="https://www.youtube.com/embed/cbuZfY2S2UQ"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
+
         <p className="max-w-[720px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
+
         <Button text="Get Started" href="/about" />
       </div>
     </section>
   );
 };
 
-export default Text;
+export default Quote;
