@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Video from "@/components/Video";
 import Logos from "@/components/Logos";
 import Text from "@/components/Text";
+import Quote from "@/components/Quote";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Text />
       <Logos />
       <Video />
+      <Logos />
+      <Quote />
       <Disclaimer />
     </main>
   );
