@@ -18,7 +18,7 @@ const Quote = () => {
         {/* Quote section */}
         <div className="max-w-[720px] flex flex-col gap-6 p-6 rounded-md bg-slate-200 text-left">
           {/* Bubble */}
-          <div className="ml-8 p-6 bg-slate-50 rounded-t-3xl rounded-br-3xl">
+          <div className="ml-8 p-6 bg-slate-50 text-xl rounded-t-3xl rounded-br-3xl">
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua."
