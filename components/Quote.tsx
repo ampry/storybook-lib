@@ -15,14 +15,7 @@ const Quote = () => {
         </h3>
 
         {/* Quote section */}
-        <iframe
-          width="560"
-          className="rounded-md"
-          height="315"
-          src="https://www.youtube.com/embed/cbuZfY2S2UQ"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        ></iframe>
+        <div></div>
 
         <p className="max-w-[720px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
